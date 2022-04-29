@@ -1,0 +1,24 @@
+1. Bajar Termux de la AppStore e instalarlo en el dispositivo
+2. Abrir la aplicación y en la línea de comandos (tipo linux), ejecutar:
+	2.1. apt update
+	2.2. apt upgrade (Cada vez que la aplicación solicite confrmación, escribir Y y presionar Enter)
+	2.3. apt install coreutils (Cada vez que la aplicación solicite confrmación, escribir Y y presionar Enter)
+	2.4. apt install nodejs (Cada vez que la aplicación solicite confrmación, escribir Y y presionar Enter)
+	2.5. termux-setup-storage (La tablet solicitara permiso para que la aplicación acceda a los archivos, confirmar)
+	2.6. Dirigirse a la ruta storage/shared/Android/data/com.termux/files y crear una carpeta para que contega los archivos del backend
+3. Ejecutar el comando npm install --g yarn
+4. Ejecutar el comando npm install --g nodemon
+5. Ejecutar el comando yarn install
+6. Ejecutar el comando yarn start
+7. Comprobar en el navegador Chrome de la tablet que la dirección http://localhost:3130 cargue.
+8. Agregar el paquete sqlite3 ejecutando el comando yanr add sqlite3 desde la carpeta del backend
+9. Cambiar en el archivo.env el DB_DIALECT a sqlite
+10. Ejecutar el comando yarn start desde la carpeta del backend para subir el server de NodeJS.
+
+apt install libllvm
+apt install clang make nodejs-lts libuv
+apt install g++
+npm install sqlite3
+
+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
+
